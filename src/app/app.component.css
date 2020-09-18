@@ -1,0 +1,67 @@
+html,body{
+  margin:0 auto;
+	width:100%;
+	height:100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 100%;
+  position: relative;
+
+  align-items: center;
+  margin: 0 ;
+
+}
+.message{
+  color:white;
+  text-align: center;
+}
+.example-container{
+  display: flex;
+  justify-content: center;
+  width:70%;
+  position: relative;
+}
+mat-form-field{
+  color:white;
+  width:25%;
+}
+mat-label{
+    color: blue;
+}
+
+button{
+  height:50px;
+  color:white;
+
+}
+mat-list{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 0 ;
+
+}
+
+mat-list-item{
+  display: flex;
+  padding: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .example-container{
+    flex-direction: column;
+  }
+  mat-form-field{
+    width:100%;
+  }
+  button{
+    width: 100%;
+  }
+
+}
+
